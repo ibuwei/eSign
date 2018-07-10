@@ -7,12 +7,14 @@
             "email": "chinalvwei@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": "5.3|^7.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "Prophecy\\": "src/"
+            "ESign\\": "src/"
         }
     }
 }
