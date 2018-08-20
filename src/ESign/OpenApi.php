@@ -25,7 +25,6 @@ class OpenApi
 {
     function __construct()
     {
-        echo "xxx1111";exit;
         //sdk类文件自动加载
         spl_autoload_register(function ($class) {
             $class_path = str_replace('tech\\', '', $class);
